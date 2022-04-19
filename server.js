@@ -21,7 +21,7 @@ app.use(express.static(path.resolve('static')))
 // index route
 app.get('/', (req, res) => {
         res.render('index', {
-        pageTitle: 'ik werk',
+        pageTitle: 'Chat',
     });
 })
 
